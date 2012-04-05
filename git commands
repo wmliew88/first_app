@@ -1,5 +1,7 @@
+if add new files:
 git add .
 
+a flag for common file:
 git commit -a -m "Improve the README file"
 git log
 git status
