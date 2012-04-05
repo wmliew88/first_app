@@ -1,8 +1,39 @@
 git add .
 
-git commit -m "your comment here for new version"
+git commit -a -m "Improve the README file"
 git log
 git status
 
  TO revert changes:
 git checkout -f
+
+
+
+Global setup:
+
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email admin@weiminliew.com
+Add your public key
+      
+
+Next steps:
+
+  mkdir first_app
+  cd first_app
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:wmliew88/first_app.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:wmliew88/first_app.git
+  git push -u origin master
+      
+
+
