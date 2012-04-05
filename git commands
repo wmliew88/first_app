@@ -9,17 +9,18 @@ git status
  TO revert changes:
 git checkout -f
 
+Change to branch:
+git checkout -b modify-README
+git branch
 
+Merge back to master copy:
+gic checkout master
+git merge modify-README
 
-Global setup:
-
- Set up git
-  git config --global user.name "Your Name"
-  git config --global user.email admin@weiminliew.com
-Add your public key
+Tidy up branch:
+git branch -d modify-README
       
-
-Next steps:
+full steps:
 
   mkdir first_app
   cd first_app
@@ -29,13 +30,3 @@ Next steps:
   git commit -m 'first commit'
   git remote add origin git@github.com:wmliew88/first_app.git
   git push -u origin master
-      
-
-Existing Git Repo?
-
-  cd existing_git_repo
-  git remote add origin git@github.com:wmliew88/first_app.git
-  git push -u origin master
-      
-
-
