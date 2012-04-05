@@ -1,0 +1,8 @@
+git add .
+
+git commit -m "your comment here for new version"
+git log
+git status
+
+ TO revert changes:
+git checkout -f
